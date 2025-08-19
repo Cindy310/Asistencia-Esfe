@@ -40,10 +40,10 @@
     
     <!-- Jakarta Validation API -->
     <dependency>
-      <groupId>jakarta.validation</groupId>
-      <artifactId>jakarta.validation-api</artifactId>
-    
-    </dependency>
+  <groupId>jakarta.validation</groupId>
+  <artifactId>jakarta.validation-api</artifactId>
+  
+</dependency>
 
     <!-- Hibernate Validator: Implementation of Jakarta Validation -->
     <dependency>
@@ -63,30 +63,33 @@
       <scope>test</scope>
     </dependency>
     
-    <dependency>
-      <groupId>nz.net.ultraq.thymeleaf</groupId>
-      <artifactId>thymeleaf-layout-dialect</artifactId>
-    </dependency>
-     <dependency>
+  <dependency>
+    <groupId>nz.net.ultraq.thymeleaf</groupId>
+    <artifactId>thymeleaf-layout-dialect</artifactId>
+  </dependency>
+  <dependency>
     <groupId>com.openhtmltopdf</groupId>
     <artifactId>openhtmltopdf-pdfbox</artifactId>
     <version>1.0.10</version>
-</dependency>
-<dependency>
+  </dependency>
+  <dependency>
     <groupId>com.openhtmltopdf</groupId>
     <artifactId>openhtmltopdf-core</artifactId>
     <version>1.0.10</version>
-</dependency>
-  </dependencies>
- 
-  
+  </dependency>
+  <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-security -->
+  <dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-security</artifactId>
+    
+  </dependency>
+</dependencies>
   <build>
-    <plugins>
-      <plugin>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-maven-plugin</artifactId>
-      </plugin>
-    </plugins>
-  </build>
-  
+  <plugins>
+    <plugin>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-maven-plugin</artifactId>
+    </plugin>
+  </plugins>
+</build>
 </project>
